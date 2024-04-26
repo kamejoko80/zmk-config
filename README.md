@@ -4,7 +4,7 @@
 
 ```
 $ pip3 install west
-$ west init -m git@github.com:kamejoko80/zmk-config.git --mr main
+$ west init -m https://github.com/kamejoko80/zmk-config.git --mr master
 $ west update
 $ pip3 install -r zephyr/scripts/requirements.txt
 $ pip3 install -r bootloader/mcuboot/scripts/requirements.txt
